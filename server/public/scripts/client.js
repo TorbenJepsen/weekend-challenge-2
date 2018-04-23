@@ -45,6 +45,7 @@ function performCalc(operator) {
         .then(function (response) {
             console.log(response);
             getCalc();
+            $('input').val('');
         });
 
 }
